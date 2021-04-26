@@ -1,0 +1,70 @@
+
+li{
+    color: rgb(253, 253, 255);
+}
+h1{
+    color: rgb(253, 253, 255);
+    border-color: rgb(0, 0, 0); 
+}
+*{
+    color: rgb(0, 0, 0);
+    border:solid;
+    
+   
+}
+
+.Tops{
+    background-color: rgb(38, 0, 255);
+    border-color: rgb(0, 0, 0); 
+    display:flex;
+    flex-direction:  column;
+    align-items: center;  
+}
+
+.chameleon{
+    margin : 30px;
+    margin-left : 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right : 40px;
+    padding: 10px;
+    font-family: fantasy;
+   background-color: rgb(252, 1, 1);
+   border-color: rgb(0, 0, 0); 
+   display:flex;
+   flex-direction:  column;
+   align-items: center;
+}
+
+.pigeon{
+    background-color: rgb(1, 253, 14);
+    margin : 30px;
+    margin-left : 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right : 40px;
+    padding: 10px;
+    font-family: fantasy;
+    border-color: rgb(3, 3, 3);
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+
+a:link{
+    color:rgb(0, 0, 0);
+}
+a:visited{
+    color:  pink;
+}
+
+.pigeon:hover{
+    transform:scale(1.2)
+
+}
+
+.chameleon:hover{
+    transform:scale(1.2)
+}
+
